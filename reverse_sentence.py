@@ -5,7 +5,7 @@
 #print words in reverse
 
 
-userInput = input("Please enter a sentence to see it backwards: ")
+userInput = input("Please enter a sentence, we will convert it to see it backwards: ")
 print (userInput)
 splitList = userInput.split(" ")
 reverseList = splitList[::-1]
